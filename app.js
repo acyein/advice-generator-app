@@ -1,4 +1,5 @@
 const url = 'https://api.adviceslip.com/advice';
+const adviceId = document.getElementById('advice-id');
 const quoteEl = document.getElementById('quote');
 const btn = document.getElementById('generator');
 const loader = document.getElementById('spinner');
@@ -14,7 +15,8 @@ function getAdvice() {
             return response.json();
         })
         .then(data => {
-            // take only 'advice' in API object
+            // take id & advice from json
+            let id = data.slip.id;
             let advice = data.slip.advice;
             
             // once fetched: hide loader, show quote el, make btn clickable
@@ -22,8 +24,9 @@ function getAdvice() {
             quoteEl.style.display = 'block';
             btn.disabled = false;
 
-            // set quote in element
-            return quoteEl.innerHTML = advice;
+            // set id & advice into elements
+            adviceId.innerHTML = id;
+            quoteEl.innerHTML = advice;
         })
         .catch(function(error) {
             console.log(error);
