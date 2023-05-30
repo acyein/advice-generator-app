@@ -24,14 +24,15 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Generate a new piece of advice by clicking the dice icon
 
-<!-- ### Preview
-
-![Preview of advice generator app](./screenshots/) -->
+### Preview
+<p align="center">
+    <img src="preview/preview.gif" alt="Preview of advice generator app">
+</p>
 
 ### Links
 
 - Solution URL: [frontendmentor.io/solutions/advice-generator-app-BannXvzEy7](https://www.frontendmentor.io/solutions/advice-generator-app-BannXvzEy7)
-- Live Site URL: [advicegenerator-yein.vercel.app](https://advicegenerator-yein.vercel.app/)
+- Live Site URL: [acyein.github.io/advice-generator-app](https://acyein.github.io/advice-generator-app/)
 
 ## My process
 
