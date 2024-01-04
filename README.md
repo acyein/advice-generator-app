@@ -81,5 +81,5 @@ function getAdvice() {
 
 ## Author
 
-- Website - [Chian Yein](https://acyein.netlify.app/)
+- Website - [Chian Yein](https://angchianyein.netlify.app/)
 - Frontend Mentor - [@acyein](https://www.frontendmentor.io/profile/acyein)
